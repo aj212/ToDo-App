@@ -1,0 +1,94 @@
+*{
+ background-color:rosybrown;
+ font-family: 'Courier New', Courier, monospace;
+}
+.maindiv{
+  display: flex;
+}
+.innerdiv{
+  padding-top: 18px;
+  margin-top: 60px;
+  box-sizing: border-box;
+  width: 60vh;
+  height: 80vh;
+  background-color:darksalmon;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 4px rgb(122, 116, 116);
+  border-radius: 20px;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+.innerdiv:hover{
+  width: 62vh;
+  height: 83vh;
+  transition: 0.5s;
+}
+.heading{
+  padding: 5px;  
+  color:navajowhite;
+  background-color:firebrick;
+  text-align: center;
+  font-size: 40px;
+}
+.input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 3px solid black;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 17px ;
+}
+.icon{
+  background: transparent;
+  border: 0;
+  margin-left: 50px;
+  font-size: 30px;
+}
+.icon:hover{
+  cursor: pointer;
+  color:navy;
+}
+li{
+  list-style-type: none;
+  background-color:transparent;
+  font-size: large;
+  font-weight: bold;
+}
+ol{
+  background-color:transparent;
+}
+.add{
+  border: 0;
+  background-color: transparent;
+  padding: 5px;
+}
+@media(max-width :768px){
+  .innerdiv .input{
+    width: 55%;
+  }
+}
+.remove{
+  border: 0;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.remove:hover{
+  color: white;
+  background-color: black;
+}
+.todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  background-color: transparent;
+}
